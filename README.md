@@ -94,16 +94,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-**Option B — Impersonation**
-
-```bash
-export USE_IMPERSONATION=1
-export IMPERSONATE_SA=hw3-service-account@serious-music-485622-t8.iam.gserviceaccount.com
-cd service2_subscriber
-pip install -r requirements.txt
-python main.py
-```
-
 Service 2 prints each forbidden request to stdout and appends to `gs://cs528-jx3onj-hw2/forbidden_logs/forbidden_requests.log`.
 
 ---
